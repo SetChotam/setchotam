@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+.hero {
+  background: url('https://powergroupintl.com/wp-content/uploads/2024/11/portrait-male-security-guard-with-radio-station-camera-screens.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  max-width: 90%;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #00ff99;
+}
+
+.hero .phone {
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.services, .why-us {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services h2, .why-us h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service {
+  background: #fff;
+  border-left: 5px solid #00cc88;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.why-us ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+
+.why-us li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.why-us li::before {
+  content: '✅';
+  position: absolute;
+  left: 0;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
